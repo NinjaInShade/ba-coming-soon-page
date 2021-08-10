@@ -13,7 +13,7 @@
 
   /* Primary */
   --gradient: linear-gradient(135deg, rgba(248, 191, 191, 1) 0%, rgba(238, 139, 139, 1) 100%);
-  --gradient-light: linear-gradient(135deg, rgba(255, 241, 241, 1) 0%, rgba(255, 255, 255, 1) 100%);
+  --gradient-light: linear-gradient(-135deg, rgba(255, 241, 241, 1) 0%, rgba(255, 255, 255, 1) 100%);
 
   --dark-pink: #ce9898;
   --pink: #ee8b8b;
@@ -39,6 +39,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: stretch;
+  /* background: var(--gradient-light); */
 }
 
 h1 {

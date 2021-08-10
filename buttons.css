@@ -12,7 +12,7 @@
   background: var(--gradient);
   box-shadow: 0 15px 20px 0 rgba(198, 110, 110, 0.25);
   border-radius: 28px;
-  padding: 19px 45px;
+  padding: 20px 45px;
 }
 
 .btn-primary::before {

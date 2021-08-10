@@ -4,9 +4,14 @@
   justify-content: flex-start;
   align-items: flex-start;
   margin-left: auto;
+  padding-left: 44px;
   max-width: 665px;
   height: 100%;
   width: 100%;
+}
+
+.left-section-container {
+  background: url('./assets/bg-pattern-desktop.svg') center / cover;
 }
 
 .left-section-container,
@@ -81,6 +86,17 @@
   font-weight: 600;
   margin-left: 32px;
   margin-top: 4px;
+}
+
+.header-input-error-icon {
+  position: absolute;
+  display: none;
+  top: 19px;
+  right: 27%;
+}
+
+.header-form-invalid .header-input-error-icon {
+  display: initial;
 }
 
 .header-form-invalid .header-input {
