@@ -32,3 +32,9 @@
   content: '';
   opacity: 100%;
 }
+
+@media (max-width: 500px) {
+  .btn-primary {
+    padding: 17px 28px;
+  }
+}

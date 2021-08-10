@@ -39,7 +39,6 @@ main {
   display: flex;
   justify-content: center;
   align-items: stretch;
-  /* background: var(--gradient-light); */
 }
 
 h1 {
@@ -59,7 +58,7 @@ h1 {
   line-height: var(--small-line-height);
 }
 
-@media (max-width: 375px) {
+@media (max-width: 500px) {
   :root {
     --h1: 2.5rem;
     --h1-line-height: 42px;
