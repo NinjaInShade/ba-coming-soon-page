@@ -27,13 +27,15 @@ Users should be able to:
 
 ### Screenshot
 
-<!-- ![](./screenshots/Desktop_solution.png) -->
-<!-- ![](./screenshots/Mobile_solution.png) -->
+![](./screenshots/Desktop_solution.png)
+![](./screenshots/Desktop_active_solution.png)
+![](./screenshots/Mobile_solution.png)
+![](./screenshots/Mobile_active_solution.png)
 
 ### Links
 
-<!-- - Solution URL: (https://www.frontendmentor.io/solutions/responsive-order-summary-card-TFXa8ZDRV) -->
-<!-- - Live Site URL: (https://lm-order-summary-component.netlify.app/) -->
+- Solution URL: (https://www.frontendmentor.io/solutions/responsive-coming-soon-page-6V7aJGGui)
+- Live Site URL: (https://lm-ba-coming-soon-page.netlify.app/)
 
 ## My process
 
@@ -45,7 +47,7 @@ Users should be able to:
 
 ### What I learned
 
-Not done yet.
+I learnt how to code a layout from a design where their was this illusion of a max-width container, but I couldn't do it that way. Since the left section with the navbar and text had a background stretch to the left, but not past the image on the right, I couldn't use a max width container and just did some playing around with the CSS and got it to work!
 
 ## Author
 
