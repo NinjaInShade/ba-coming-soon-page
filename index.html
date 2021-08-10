@@ -16,6 +16,44 @@
 
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <main></main>
+    <main>
+      <div class="left-section-container">
+        <header class="header-container">
+          <nav class="navbar">
+            <a href="./index.html"><img src="./assets/logo.svg" alt="Base Apparel logo." /></a>
+          </nav>
+
+          <div class="header-content">
+            <h1 class="header-title"><span>We're</span> coming soon</h1>
+            <p class="body-text header-description">
+              Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay
+              up-to-date with announcements and our launch deals.
+            </p>
+            <form class="header-form" id="header-form" onsubmit="validateForm(event)">
+              <input
+                type="text"
+                class="body-text header-input"
+                placeholder="Email address"
+                maxlength="100"
+                id="email"
+                name="Email address"
+              />
+              <button class="btn btn-primary header-btn" type="submit">
+                <img src="./assets/icon-arrow.svg" alt="Subscribe icon" aria-labelledby="Subscribe button" />
+              </button>
+              <small class="small-text header-form-error-text" id="email-error-text">Input is valid</small>
+            </form>
+          </div>
+        </header>
+      </div>
+      <div class="header-img-container">
+        <img
+          src="./assets/hero-desktop.jpg"
+          alt="Photo of model in some Base Apparel merchandise, with an overall pinky/orangey vibe."
+        />
+      </div>
+    </main>
+
+    <script src="./main.js"></script>
   </body>
 </html>

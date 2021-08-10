@@ -18,6 +18,8 @@
   --dark-pink: #ce9898;
   --pink: #ee8b8b;
 
+  --error: #f96464;
+
   /* Neutral */
   --black: #423a3a;
 
@@ -33,11 +35,10 @@
   --small-line-height: 28px;
 }
 
-body {
+main {
   display: flex;
   justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+  align-items: stretch;
 }
 
 h1 {
