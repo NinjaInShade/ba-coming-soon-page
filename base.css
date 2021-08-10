@@ -12,14 +12,25 @@
   font-size: 16px;
 
   /* Primary */
+  --gradient: linear-gradient(135deg, rgba(248, 191, 191, 1) 0%, rgba(238, 139, 139, 1) 100%);
+  --gradient-light: linear-gradient(135deg, rgba(255, 241, 241, 1) 0%, rgba(255, 255, 255, 1) 100%);
+
+  --dark-pink: #ce9898;
+  --pink: #ee8b8b;
 
   /* Neutral */
+  --black: #423a3a;
 
   /* Typography */
-  --h1: 1.75rem;
+  --h1: 4rem;
+  --h1-line-height: 71px;
+  --h1-letter-spacing: 17.3px;
 
   --body: 1rem;
-  --body-line-height: 26px;
+  --body-line-height: 28px;
+
+  --small: 0.813rem;
+  --small-line-height: 28px;
 }
 
 body {
@@ -31,7 +42,9 @@ body {
 
 h1 {
   font-size: var(--h1);
-  font-weight: 900;
+  line-height: var(--h1-line-height);
+  letter-spacing: var(--h1-letter-spacing);
+  font-weight: 600;
 }
 
 .body-text {
@@ -39,11 +52,18 @@ h1 {
   line-height: var(--body-line-height);
 }
 
+.small-text {
+  font-size: var(--small);
+  line-height: var(--small-line-height);
+}
+
 @media (max-width: 375px) {
   :root {
-    --h1: 22px;
+    --h1: 2.5rem;
+    --h1-line-height: 42px;
+    --h1-letter-spacing: 10.8px;
 
-    --body: 0.938rem;
-    --body-line-height: 25px;
+    --body: 0.875rem;
+    --body-line-height: 22px;
   }
 }
