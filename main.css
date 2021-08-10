@@ -158,6 +158,10 @@
     right: 20vw;
     top: 15.5px;
   }
+
+  .header-title span {
+    line-height: 42px;
+  }
 }
 
 @media (max-width: 375px) {
